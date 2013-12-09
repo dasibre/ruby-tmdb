@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="gem" name="Gem">
+      <configuration>
+        <option name="GEM_APP_ROOT_PATH" value="$MODULE_DIR$" />
+        <option name="GEM_APP_TEST_PATH" value="$MODULE_DIR$/test" />
+        <option name="GEM_APP_LIB_PATH" value="$MODULE_DIR$/lib" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.5, RVM: ruby-1.9.3-p448 [afrailsdev]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.3.5, RVM: ruby-1.9.3-p448 [afrailsdev]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="crack (v0.4.1, RVM: ruby-1.9.3-p448 [afrailsdev]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="deepopenstruct (v0.1.2, RVM: ruby-1.9.3-p448 [afrailsdev]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, RVM: ruby-1.9.3-p448 [afrailsdev]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="metaclass (v0.0.1, RVM: ruby-1.9.3-p448 [afrailsdev]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mocha (v0.14.0, RVM: ruby-1.9.3-p448 [afrailsdev]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="safe_yaml (v0.9.7, RVM: ruby-1.9.3-p448 [afrailsdev]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="webmock (v1.16.0, RVM: ruby-1.9.3-p448 [afrailsdev]) [gem]" level="application" />
+  </component>
+</module>
+

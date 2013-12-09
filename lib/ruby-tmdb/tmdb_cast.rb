@@ -9,14 +9,15 @@ class TmdbCast
     
     results = []
     unless(options[:id].nil? || options[:id].to_s.empty?)
-      results << Tmdb.api_call('Person.getInfo', options[:id], options[:language])
+      results << Tmdb.api_call('person', {:id => options[:id].to_s}, options[:language])
     end
     unless(options[:name].nil? || options[:name].to_s.empty?)
-      results << Tmdb.api_call('Person.search', options[:name], options[:language])
+      results << Tmdb.api_call('search/person', {:query => options[:name].to_s}, options[:language])
     end
     
     results.flatten!
     results.compact!
+    results.delete_if &:nil?
     
     unless(options[:limit].nil?)
       raise ArgumentError, ":limit must be an integer greater than 0" unless(options[:limit].is_a?(Fixnum) && options[:limit] > 0)
